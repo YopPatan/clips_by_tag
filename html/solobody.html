@@ -42,13 +42,13 @@
     <link rel="stylesheet" href="css/giff.css" />
 </head>
 
-<body ng-controller="VideosCtrl as ctrl">
+<body class="soloBody" ng-controller="VideosCtrl as ctrl">
 
-<input type="hidden" name="nombre_json" id="nombre_json" value="data_all.json" />
+<input type="hidden" name="nombre_json" id="nombre_json" value="data_fiesta.json" />
 <input type="hidden" name="partido_equipos" id="partido_equipos" value="Chile vs Camerún" />
 <input type="hidden" name="partido_fecha" id="partido_fecha" value="18 de junio | Otkrytie Arena, Moscú" />
 
-<ng-include src="'partials/_contenido_completo.html'" />
+<ng-include src="'partials/_contenido_solobody.html'" />
 
 </body>
 </html>

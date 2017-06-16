@@ -1,0 +1,81 @@
+<!-- LISTA DE VIDEOS -->
+<div ng-if="isLista">
+
+    <div class="container-fluid">
+
+        <!--BOTON REFRESCAR-->
+        <div class="row">
+            <div class="blockheader">
+
+                <div class="redes">
+                    <ul>
+                        <li class="text-center"><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li class="text-center"><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li class="text-center"><a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+
+                <a type="button" class="btn btn-danger pull-left" href="#">
+                    <span class="glyphicon glyphicon-repeat" aria-hidden="true"></span>
+                </a>
+                <h1>Copa Confederaciones Rusia 2017</h1>
+                <h2>{{partido_equipos}}</h2>
+                <h3>{{partido_fecha}}</h3>
+                <button type="button" class="btn btn-danger btn-xs pull-right" href="#">Señal en Vivo</button>
+                <h4 class="text-center"><i class="fa fa-video-camera" aria-hidden="true"></i>Incidencias</h4>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-3 col-xs-12" ng-repeat="video in video_list | orderBy:'-mam'">
+                <div class="picture" ng-click="showVideo(video);">
+                    <img class="img img-responsive" ng-src="{{video.thumbnail}}">
+                    <div class="overlay">
+                        <i class="fa fa-play" aria-hidden="true"></i>
+                    </div>
+                </div>
+
+                <div class="titulo">
+                    <time class="pull-left text-center">{{video.mam}}</time>
+                    <h4>{{video.title}}</h4>
+                </div>
+                <p class="lead">{{video.description}}</p>
+                <hr/>
+            </div>
+
+        </div>
+
+
+    </div>
+</div>
+
+<!-- PLAYER -->
+<div class="playerCompleto" ng-if="isVideo">
+    <div class="container-fluid">
+
+        <!-- BOTON CERRAR -->
+        <div class="row ng-scope">
+            <div class="col-xs-12">
+                <button type="button" class="btn btn-danger btn-sm pull-right" ng-click="hideVideo();"><i
+                        class="fa fa-times" aria-hidden="true"></i></button>
+            </div>
+        </div>
+
+        <!-- PLAYER -->
+        <div class="row ng-scope">
+            <div class="blockheader">
+                <div id="videoMS" class="embed-responsive embed-responsive-16by9"></div>
+                <time class="pull-left ng-binding">{{currentVideo.mam}}</time>
+                <h4 class="pull-left ng-binding">{{currentVideo.title}}</h4>
+                <p class="lead ng-binding">{{currentVideo.description}}</p>
+                <hr>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    <small>©2017 Televisión Nacional de Chile / AUID</small>
+</footer>

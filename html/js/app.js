@@ -3,9 +3,14 @@ angular.module('copaApp', [])
         $scope.isVideo = false;
         $scope.isLista = true;
 
+        $scope.nombre_json = document.getElementById("nombre_json").value;
+        $scope.partido_equipos = document.getElementById("partido_equipos").value;
+        $scope.partido_fecha = document.getElementById("partido_fecha").value;
+        //console.log(document.getElementById("nombre_json").value);
+
         $scope.loadData = function() {
             if ($scope.isLista) {
-                $http.get('../services/data/data_fiesta.json').then(function(response) {
+                $http.get('../services/data/' + $scope.nombre_json).then(function(response) {
                     //$scope.isLista = true;
                     console.log(response);
                     $scope.video_list = response.data;
@@ -27,8 +32,7 @@ angular.module('copaApp', [])
                 imagen: video.thumbnail,
                 autoPlay: 1
             }
-            //$timeout($scope.loadMedia, 5000);
-            $timeout(play.bind(null, 'player1',param), 500);
+            $timeout(play.bind(null, 'videoMS', param), 500);
         }
 
         $scope.hideVideo = function() {
