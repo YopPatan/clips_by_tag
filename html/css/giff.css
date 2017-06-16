@@ -1,0 +1,175 @@
+body {font-family: 'Roboto', sans-serif;background:#f3f3f3; padding-top:165px;}
+a.btn {display: block; margin-right:10px; margin-bottom:6px; width: 44px; height:44px; border-radius:3px}
+a.btn span {font-size:2.1rem;line-height:3rem}
+
+.blockheader {padding:5px 15px;position:fixed; top:0; right:0;left:0; z-index:10; background:#f3f3f3; border-bottom:2px solid rgba(0,0,0,0.05);}
+.blockheader h1 {font-size:1.2rem;text-transform:uppercase;margin:0;}
+.blockheader h2 {font-size:2.2rem;margin:4px 0 0;}
+.blockheader h3 {clear:both; font-size:1.1rem; text-transform:uppercase;margin:0; }
+.blockheader h4 {font-size:2.6rem; color:#666666;margin:14px 0 0;}
+.blockheader button {margin:12px 0 0;}
+
+hr {border-top: 1px solid #333}
+p.lead {clear:both;font-size:1.5rem}
+.row img {width:100%; margin-bottom:10px;}
+
+.titulo {overflow:hidden}
+.titulo time {margin-right:10px; padding:6px; border-radius: 20px; border:1px solid #999999; font-weight:bold;}
+.titulo h4 {margin:6px 0 0}
+
+i.fa-play {font-size:5rem; color:rgba(256,256,256,0.9); position:absolute;}
+
+.redes ul {list-style-type: none; overflow:hidden; padding:0; width:100%; margin:6px 0 16px;}
+.redes ul li a {display:block; float:left; border:1px solid rgba(0,0,0,0.1); border-left:none; width:33%; height:20px; line-height:20px}
+.redes ul li a i {color:rgba(256,256,256,0.6)}
+.redes ul li a:hover {background:rgba(0,0,0,0.2)}
+.redes ul li a:hover i {color:rgba(256,256,256,1)}
+.redes ul li:nth-child(1) a {border-left:1px solid rgba(0,0,0,0.1)}
+
+.boxShadow {
+	display:block;
+	position:fixed;
+	bottom:0px;
+	width:100%;
+	height:160px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+6,000000+100&0+6,0.6+100 */
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 6%, rgba(0,0,0,0.6) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 6%,rgba(0,0,0,0.6) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 6%,rgba(0,0,0,0.6) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#99000000',GradientType=0 ); /* IE6-9 */
+	}
+	footer {margin:0 0 50px}
+
+
+@media screen and (min-width: 768px) and (max-width: 989px) {
+	body {padding-top:180px}
+	.blockheader {padding:15px 15px 5px}
+}
+
+@media screen and (max-width: 990px) {
+    .container-fluid, .row:nth-child(1) .col-xs-12 {
+        max-width:480px;
+        margin:0 auto;
+    }  
+}
+
+@media screen and (min-width: 990px) {
+	body {padding-top: 120px}
+	.blockheader {padding-top:10px}
+	.blockheader h3 {clear:left;}
+	.blockheader button {position:absolute;right:15px}
+	.redes {float:right;}
+	.redes ul {margin-top:0;}
+	.redes ul li {float:left;}
+	.redes ul li a {width:54px; height:54px; line-height: 54px}
+}
+
+/*== 03.soloBody ==*/
+.soloBody {padding-top:80px}
+
+/*== 04.body ==*/
+@media screen and (max-width: 990px) {
+	body.player {padding-top:55px}
+	body.player .container-fluid, body.player .row:nth-child(1) .col-xs-12  {max-width:100%;border:none;}
+	body.player .boxShadow {display:none}
+	body.player .blockheader {padding-top:0}
+}
+@media screen and (min-width: 990px) {
+	body.player {padding-top:55px}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+/* == SKIN GRIS CLARO == */
+
+body {background:#f3f3f3}
+p.lead {font-size:1.4rem; padding-top:5px;color:#666666;}
+time {height:30px; min-width:30px;line-height:18px;border:none;background:#AB151F;color:#ffffff;}
+.blockheader {
+	background:rgba(51,51,51,1);
+	background: rgb(102,3,36); /* Old browsers */
+	background: -moz-linear-gradient(45deg, rgba(102,3,36,1) 3%, rgba(115,3,20,1) 31%, rgba(171,21,31,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg, rgba(102,3,36,1) 3%,rgba(115,3,20,1) 31%,rgba(171,21,31,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg, rgba(102,3,36,1) 3%,rgba(115,3,20,1) 31%,rgba(171,21,31,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#660324', endColorstr='#ab151f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	width:100%; left:0; right:0;box-shadow:0px 3px 6px rgba(0,0,0,.4);}
+.blockheader * {color:rgba(256,256,256,0.4)}
+.blockheader h1 {color:rgba(256,256,256,1)}
+.blockheader h2, .blockheader h4, .blockheader button, .blockheader a span {color:#ffffff}
+.blockheader h4 {float:left;font-size:1.6rem; text-transform: uppercase;}
+.blockheader h4 i {margin-right:4px; color:rgba(256,256,256,0.2)}
+
+
+.picture {position: relative;width: 100%}
+.picture img {display: block;width: 100%;height: auto}
+.picture .overlay {
+  cursor:pointer;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .4s ease;
+  background-color: rgba(0,0,0,0.4);
+  }
+.picture:hover .overlay {opacity: 1}
+.picture .overlay i.fa-play  {font-size:3rem;bottom:10px;left:10px;}
+
+
+@media screen and (min-width: 990px) {
+	.col-md-3.col-xs-12 {min-height:380px}
+	} 
+@media screen and (max-width: 990px) {
+	body.player .container-fluid {margin-bottom:6px;max-width:100%}	
+	}	
+@media screen and (min-width: 1280px) {
+	.col-md-3.col-xs-12 {min-height:420px}
+	}
+
+
+/*otras páginas*/
+body.soloBody {padding-top:10px;}
+body.soloBody .blockheader,
+body.player .blockheader {background:#f3f3f3;}
+body.player .blockheader {box-shadow:0;overflow:hidden;}
+body.player #videoMS {margin:10px 0;}
+body.player .container-fluid {max-width:1024px; margin:0 auto;}
+
+
+
+
+
+
+
+
+/* == skin == */
+/*
+body {background: #212121; background: radial-gradient(circle at 21.63% 16.76%, #360909, transparent 76%),radial-gradient(circle at 58.1% 89.32%, #290808, transparent 100%),radial-gradient(circle at 74.06% 32.43%, #190402, transparent 100%),radial-gradient(circle at 50% 50%, #000000, #000000 100%)}
+
+p {color:#999;}
+h4 {color:#cccccc}
+h4:hover {color:#ffffff}
+i {color:#666;}
+a:hover i{color:#ff9900}
+time {color: #ccc;font-size: 1.2rem}
+time i {color:rgba(256,256,256,.4); margin-right:4px}
+hr {border-top:1px solid rgba(256,256,256,0.15);}
+
+.redes ul li a:hover {background:rgba(256,256,256,0.15)}
+.blockheader {background:#000000!important}
+.blockheader h4 {color:#ffffff} 
+.blockheader p {color:#cccccc}
+*/
+
