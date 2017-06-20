@@ -4,16 +4,16 @@
 
         <!--BOTON REFRESCAR-->
         <div class="row">
-            <div class="col-xs-12 blockheader">
+<!--            <div class="col-xs-12 blockheader">
                 <a type="button" class="btn btn-danger pull-left" href="#">
                     <span class="glyphicon glyphicon-repeat" aria-hidden="true"></span>
                 </a>
                 <button type="button" class="btn btn-danger btn-sm pull-right" href="#">Señal en Vivo</button>
-            </div>
+            </div>-->
         </div>
 
         <!-- VIDEOS -->
-        <div class="col-md-3 col-xs-12" ng-repeat="video in video_list | orderBy:'-mam'">
+        <div class="col-sm-3 col-xs-12" ng-repeat="video in video_list | orderBy:'-mam'">
             <div class="picture" ng-click="showVideo(video);">
                 <img class="img img-responsive" ng-src="{{video.thumbnail}}">
                 <div class="overlay">
