@@ -13,9 +13,9 @@ app.controller('VideosCtrl', function($scope, $http, $timeout, $location, $filte
 
     $scope.loadData = function() {
         if ($scope.isLista) {
-            $http.get('../services/data/' + $scope.nombre_json).then(function(response) {
+            $http.get('http://estaticos.tvn.cl/json/data/' + $scope.nombre_json).then(function(response) {
                 //$scope.isLista = true;
-                console.log(response);
+                //console.log(response);
                 $scope.video_list = response.data;
                 //$timeout($scope.loadData, 10000);
             });
@@ -49,14 +49,21 @@ app.controller('VideosCtrl', function($scope, $http, $timeout, $location, $filte
         $scope.isLista = false;
         $scope.isShared = true;
 
-        $http.get('../services/data/' + $scope.nombre_json).then(function(response) {
-            var videos = $filter('filter')(response.data, {'id': '5948113940992704b7163e00'}, true);
+        $http.get('http://estaticos.tvn.cl/json/data/' + $scope.nombre_json).then(function(response) {
+            $scope.video_list = response.data;
+            var videos = $filter('filter')(response.data, {'id': video_id}, true);
             if (videos.length > 0) {
                 $scope.showVideo(videos[0]);
             }
+            else {
+                $scope.isVideo = false;
+                $scope.isLista = true;
+                $scope.isShared = false;
+                $scope.loadData();
+            }
 
-            console.log($filter('filter')(response.data, {'id': '5948113940992704b7163e00'}, true));
-            console.log(response.data);
+            //console.log($filter('filter')(response.data, {'id': '5948113940992704b7163e00'}, true));
+            //console.log(response.data);
         });
     }
     else {

@@ -22,7 +22,7 @@
             </div>
 
             <div class="titulo">
-                <time class="pull-left text-center">{{video.mam}}</time>
+                <time class="pull-left text-center">{{(video.mam.charAt(0)=='P') ? video.mam.substring(1) : video.mam}}</time>
                 <h4>{{video.title}}</h4>
             </div>
             <p class="lead">{{video.description}}</p>
@@ -48,7 +48,7 @@
         <div class="row ng-scope">
             <div class="col-xs-12">
                 <div id="videoMS" class="embed-responsive embed-responsive-16by9"></div>
-                <time class="pull-left ng-binding">{{currentVideo.mam}}</time>
+                <time class="pull-left ng-binding">{{(currentVideo.mam.charAt(0)=='P') ? currentVideo.mam.substring(1) : currentVideo.mam}}</time>
                 <h4 class="pull-left ng-binding">{{currentVideo.title}}</h4>
                 <p class="lead ng-binding">{{currentVideo.description}}</p>
                 <hr>

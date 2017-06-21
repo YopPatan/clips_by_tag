@@ -1,13 +1,29 @@
-body {font-family: 'Roboto', sans-serif;background:#f3f3f3; padding-top:165px;}
+body {font-family: 'Roboto', sans-serif;background:#f3f3f3; padding-top:120px;}
+.btn-group-xs>.btn, .btn-xs {padding: 1px 5px;font-size: 12px;line-height: 1.5;border-radius: 3px;position: absolute;top: 0;right: 5px;}
 a.btn {display: block; margin-right:10px; margin-bottom:6px; width: 44px; height:44px; border-radius:3px}
 a.btn span {font-size:2.1rem;line-height:3rem}
 
+/*logo tvn*/
+.navbar-brand {
+	float: left;
+	height: 40px;
+	width:42px;
+	padding: 0;
+	font-size: 18px;
+	line-height: 20px;
+	margin:0 1rem 0 0;
+	text-align: center;
+	background: url(http://estaticos.tvn.cl/skins/2016/css/img/tvnanimado_2016.gif) center center no-repeat;
+	text-indent: -999999em;
+	background-size: cover;
+}
+
 .blockheader {padding:15px 15px 5px;position:fixed; top:0; right:0;left:0; z-index:10; background:#f3f3f3; border-bottom:2px solid rgba(0,0,0,0.05);}
 .blockheader h1 {font-size:1.2rem;text-transform:uppercase;margin:0;}
-.blockheader h2 {font-size: 2.2rem; margin: 4px 0}
+.blockheader h2 {font-size: 1.8rem;margin: 0.3rem 0 1rem;}
 .blockheader h3 {clear:both; font-size:1.1rem; text-transform:uppercase;margin:0; }
 .blockheader h4 {font-size:2.6rem; color:#666666;margin:14px 0 0;}
-.blockheader button {margin:12px 0 0;}
+.blockheader button {margin:0.5rem 0;}
 
 hr {border-top: 1px solid #333}
 p.lead {clear:both;font-size:1.5rem}
@@ -42,7 +58,7 @@ footer {margin:0 0 50px}
 
 
 @media screen and (min-width: 768px) and (max-width: 989px) {
-	body {padding-top:180px}
+	body {padding-top:110px!important}
 	.blockheader {padding:15px 15px 5px}
 }
 
@@ -156,7 +172,7 @@ time {height:30px; min-width:30px;line-height:18px;border:none;background:#AB151
 .playerCompleto h4 {color:#333333;}
 .playerCompleto + footer {display:none;}
 
-body.soloBody {padding-top:70px;}
+body.soloBody {padding-top:20px;}
 body.soloBody .blockheader {box-shadow: none}
 body.soloBody .blockheader {background:#f3f3f3}
 body .player {width:100%;margin-top:10px;}
