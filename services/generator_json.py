@@ -5,8 +5,7 @@ import sys
 
 media_ids = []
 tags_permitidos = []
-json_new = {}
-json_all = []
+
 
 try:
     json_conf = json.load(urllib2.urlopen('http://estaticos.tvn.cl/skins/copa_confederaciones/js/config.json'))
@@ -23,7 +22,8 @@ if (json_conf.get("tags_enabled")):
     tags_permitidos = json_conf["tags_enabled"]
 
 for media_id in media_ids:
-
+    json_new = {}
+    json_all = []
     try:
         json_media = json.load(urllib2.urlopen('https://api.streammanager.co/api/media?token=f5c4d4c019297f434f10c7a7bd87fe30&category_id=' + media_id))
     except Exception as inst:
@@ -50,10 +50,16 @@ for media_id in media_ids:
             else:
                 mam = ''
 
-            if len(video['thumbnails']) > 0:
-                thumbnail = video['thumbnails'][0]['url']
+            if video.get('thumbnails'):
+            	if len(video['thumbnails']) > 0:
+                	thumbnail = video['thumbnails'][0]['url']
+                	for img in video['thumbnails']:
+                		if (img['is_default']) and (img['size'] == '480'):
+                			thumbnail = img['url']
+            	else:
+                	thumbnail = ''
             else:
-                thumbnail = ''
+            	thumbnail = ''
 
             if len(video['meta']) > 0:
                 video_mp4 = video['meta'][0]['url']
@@ -90,7 +96,7 @@ for media_id in media_ids:
             print inst
 
     with io.open('data/data_' + media_id + '_all.json', 'w', encoding='utf-8') as f:
-        f.write(json.dumps(json_all, ensure_ascii=False))
+        f.write(unicode(json.dumps(json_all, ensure_ascii=False)))
 
     for key, data in json_new.iteritems():
         if key in tags_permitidos:

@@ -1,0 +1,44 @@
+{
+  "css_version": "5",
+  "html": "alemania_camerun",
+  "media_id": "594d2ef35199922cbe945836",
+  "lugar": "25 de Junio | Estadio Fisht",
+  "data": [
+    {
+      "tag": "all",
+      "titulo": "Alemania vs. Camerún: Momentos clave",
+      "descripcion": "Revisa las principales jugadas del partido Alemania vs. Camerún",
+      "imagen": "http://estaticos.tvn.cl/skins/tvndeportes/201703211700/gfx/copaconfederaciones2017/fotolink_principal_generico.png"
+    },
+    {
+      "tag": "goles",
+      "titulo": "Alemania vs. Camerún: Goles",
+      "descripcion": "Revisa las principales jugadas de goles en el partido Alemania vs. Camerún",
+      "imagen": "http://estaticos.tvn.cl/skins/tvndeportes/201703211700/gfx/copaconfederaciones2017/fotolink_goles_generico.png"
+    },
+    {
+      "tag": "foul",
+      "titulo": "Alemania vs. Camerún: Foul",
+      "descripcion": "Revisa las principales jugadas de foul en el partido Alemania vs. Camerún",
+      "imagen": "http://estaticos.tvn.cl/skins/tvndeportes/201703211700/gfx/copaconfederaciones2017/fotolink_fouls_generico.png"
+    },
+    {
+      "tag": "atajadas",
+      "titulo": "Alemania vs. Camerún: Atajadas",
+      "descripcion": "Revisa las principales tapadas en el partido Alemania vs. Camerún",
+      "imagen": "http://estaticos.tvn.cl/skins/tvndeportes/201703211700/gfx/copaconfederaciones2017/fotolink_atajadas_generico.png"
+    },
+    {
+      "tag": "terstegen",
+      "titulo": "Alemania vs. Camerún: Las jugadas de Marc-André ter Stegen",
+      "descripcion": "Revisa las principales jugadas de Marc-André ter Stegen en el partido Alemania vs. Camerún",
+      "imagen": "http://estaticos.tvn.cl/skins/tvndeportes/201703211700/gfx/copaconfederaciones2017/fotolink_principal_generico.png"
+    },
+    {
+      "tag": "draxler",
+      "titulo": "Alemania vs. Camerún: Las jugadas de Julian Draxler",
+      "descripcion": "Revisa las principales jugadas de Julian Draxler en el partido Alemania vs. Camerún",
+      "imagen": "http://estaticos.tvn.cl/skins/tvndeportes/201703211700/gfx/copaconfederaciones2017/fotolink_principal_generico.png"
+    }
+  ]
+}

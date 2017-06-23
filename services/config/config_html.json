@@ -1,0 +1,26 @@
+{
+  "css_version": "5",
+  "html": "nuevazelanda_portugal",
+  "media_id": "594d2e93082d0d12b90d9ef8",
+  "lugar": "24 de Junio | Estadio de San Petersburgo",
+  "data": [
+    {
+      "tag": "all",
+      "titulo": "Alemania vs. Chile: Momentos clave",
+      "descripcion": "Revisa las principales jugadas del partido Alemania vs. Chile",
+      "imagen": "http://estaticos.tvn.cl/skins/tvndeportes/201703211700/gfx/copaconfederaciones2017/fotolink_principal_generico.png"
+    },
+    {
+      "tag": "goles",
+      "titulo": "Alemania vs. Chile: goles",
+      "descripcion": "Revisa las principales jugadas de goles en el partido Alemania vs. Chile",
+      "imagen": "http://estaticos.tvn.cl/skins/tvndeportes/201703211700/gfx/copaconfederaciones2017/fotolink_goles_generico.png"
+    },
+    {
+      "tag": "atajadas",
+      "titulo": "Alemania vs. Chile: atajadas",
+      "descripcion": "Revisa las principales jugadas de goles en el partido Alemania vs. Chile",
+      "imagen": "http://estaticos.tvn.cl/skins/tvndeportes/201703211700/gfx/copaconfederaciones2017/fotolink_goles_generico.png"
+    }
+  ]
+}

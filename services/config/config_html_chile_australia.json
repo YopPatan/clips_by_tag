@@ -1,0 +1,62 @@
+{
+  "css_version": "5",
+  "html": "chile_australia",
+  "media_id": "594d2f0b3e5c6b83a26b7405",
+  "lugar": "25 de Junio | Estadio Spartak",
+  "data": [
+    {
+      "tag": "all",
+      "titulo": "Chile vs. Australia: Momentos clave",
+      "descripcion": "Revisa las principales jugadas del partido Chile vs. Australia",
+      "imagen": "http://estaticos.tvn.cl/skins/tvndeportes/201703211700/gfx/copaconfederaciones2017/fotolink_principal_generico.png"
+    },
+    {
+      "tag": "goles",
+      "titulo": "Chile vs. Australia: Goles",
+      "descripcion": "Revisa las principales jugadas de goles en el partido Chile vs. Australia",
+      "imagen": "http://estaticos.tvn.cl/skins/tvndeportes/201703211700/gfx/copaconfederaciones2017/fotolink_goles_generico.png"
+    },
+    {
+      "tag": "foul",
+      "titulo": "Chile vs. Australia: Foul",
+      "descripcion": "Revisa las principales jugadas de foul en el partido Chile vs. Australia",
+      "imagen": "http://estaticos.tvn.cl/skins/tvndeportes/201703211700/gfx/copaconfederaciones2017/fotolink_fouls_generico.png"
+    },
+    {
+      "tag": "atajadas",
+      "titulo": "Chile vs. Australia: Atajadas",
+      "descripcion": "Revisa las principales tapadas en el partido Chile vs. Australia",
+      "imagen": "http://estaticos.tvn.cl/skins/tvndeportes/201703211700/gfx/copaconfederaciones2017/fotolink_atajadas_generico.png"
+    },
+    {
+      "tag": "sanchez",
+      "titulo": "Chile vs. Australia: Las jugadas de Alexis Sanchez",
+      "descripcion": "Revisa las principales jugadas de Alexis Sanchez en el partido Chile vs. Australia",
+      "imagen": "http://estaticos.tvn.cl/skins/tvndeportes/201703211700/gfx/copaconfederaciones2017/fotolink_alexis_generico.png"
+    },
+    {
+      "tag": "vidal",
+      "titulo": "Chile vs. Australia: Las jugadas de Arturo Vidal",
+      "descripcion": "Revisa las principales jugadas de Arturo Vidal en el partido Chile vs. Australia",
+      "imagen": "http://estaticos.tvn.cl/skins/tvndeportes/201703211700/gfx/copaconfederaciones2017/fotolink_arturo_generico.png"
+    },
+    {
+      "tag": "vargas",
+      "titulo": "Chile vs. Australia: Las jugadas de Eduardo Vargas",
+      "descripcion": "Revisa las principales jugadas de Eduardo Vargas en el partido Chile vs. Australia",
+      "imagen": "http://estaticos.tvn.cl/skins/tvndeportes/201703211700/gfx/copaconfederaciones2017/fotolink_eduardo_generico.png"
+    },
+    {
+      "tag": "herrera",
+      "titulo": "Chile vs. Australia: Las jugadas de Johnny Herrera",
+      "descripcion": "Revisa las principales jugadas de Johnny Herrera en el partido Chile vs. Australia",
+      "imagen": "http://estaticos.tvn.cl/skins/tvndeportes/201703211700/gfx/copaconfederaciones2017/fotolink_johnny_generico.png"
+    },
+    {
+      "tag": "bravo",
+      "titulo": "Chile vs. Australia: Las jugadas de Claudio Bravo",
+      "descripcion": "Revisa las principales jugadas de Claudio Bravo en el partido Chile vs. Australia",
+      "imagen": "http://estaticos.tvn.cl/skins/tvndeportes/201703211700/gfx/copaconfederaciones2017/fotolink_claudio_generico.png"
+    }
+  ]
+}

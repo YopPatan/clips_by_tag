@@ -13,7 +13,7 @@ app.controller('VideosCtrl', function($scope, $http, $timeout, $location, $filte
 
     $scope.loadData = function() {
         if ($scope.isLista) {
-            $http.get('http://estaticos.tvn.cl/json/data/' + $scope.nombre_json).then(function(response) {
+            $http.get('http://localhost/clips_by_tag/services/data/' + $scope.nombre_json).then(function(response) {
                 //$scope.isLista = true;
                 //console.log(response);
                 $scope.video_list = response.data;
@@ -49,7 +49,7 @@ app.controller('VideosCtrl', function($scope, $http, $timeout, $location, $filte
         $scope.isLista = false;
         $scope.isShared = true;
 
-        $http.get('http://estaticos.tvn.cl/json/data/' + $scope.nombre_json).then(function(response) {
+        $http.get('http://localhost/clips_by_tag/services/data/' + $scope.nombre_json).then(function(response) {
             $scope.video_list = response.data;
             var videos = $filter('filter')(response.data, {'id': video_id}, true);
             if (videos.length > 0) {

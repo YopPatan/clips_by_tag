@@ -1,0 +1,44 @@
+{
+  "css_version": "5",
+  "html": "mexico_rusia",
+  "media_id": "594d2ed4e44a2289a23ef957",
+  "lugar": "24 de Junio | Kazán Arena",
+  "data": [
+    {
+      "tag": "all",
+      "titulo": "México vs. Rusia: Momentos clave",
+      "descripcion": "Revisa las principales jugadas del partido México vs. Rusia",
+      "imagen": "http://estaticos.tvn.cl/skins/tvndeportes/201703211700/gfx/copaconfederaciones2017/fotolink_principal_generico.png"
+    },
+    {
+      "tag": "goles",
+      "titulo": "México vs. Rusia: Goles",
+      "descripcion": "Revisa las principales jugadas de goles en el partido México vs. Rusia",
+      "imagen": "http://estaticos.tvn.cl/skins/tvndeportes/201703211700/gfx/copaconfederaciones2017/fotolink_goles_generico.png"
+    },
+    {
+      "tag": "foul",
+      "titulo": "México vs. Rusia: Foul",
+      "descripcion": "Revisa las principales jugadas de foul en el partido México vs. Rusia",
+      "imagen": "http://estaticos.tvn.cl/skins/tvndeportes/201703211700/gfx/copaconfederaciones2017/fotolink_fouls_generico.png"
+    },
+    {
+      "tag": "atajadas",
+      "titulo": "México vs. Rusia: Atajadas",
+      "descripcion": "Revisa las principales tapadas en el partido México vs. Rusia",
+      "imagen": "http://estaticos.tvn.cl/skins/tvndeportes/201703211700/gfx/copaconfederaciones2017/fotolink_atajadas_generico.png"
+    },
+    {
+      "tag": "ochoa",
+      "titulo": "México vs. Rusia: Las jugadas de Guillermo Ochoa",
+      "descripcion": "Revisa las principales jugadas de Guillermo Ochoa en el partido México vs. Rusia",
+      "imagen": "http://estaticos.tvn.cl/skins/tvndeportes/201703211700/gfx/copaconfederaciones2017/fotolink_principal_generico.png"
+    },
+    {
+      "tag": "chicharito",
+      "titulo": "México vs. Rusia: Las jugadas de Javier Hernández Balcázar",
+      "descripcion": "Revisa las principales jugadas de Javier Hernández Balcázar en el partido México vs. Rusia",
+      "imagen": "http://estaticos.tvn.cl/skins/tvndeportes/201703211700/gfx/copaconfederaciones2017/fotolink_principal_generico.png"
+    }
+  ]
+}

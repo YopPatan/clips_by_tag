@@ -1,29 +1,26 @@
 <!DOCTYPE html>
 <html ng-app="copaApp">
 <head>
-    <title>Rusia vs. Portugal: Momentos clave - TVN.cl</title>
+    <title>INFO_TITULO - TVN.cl</title>
+    <meta property="og:title" content="INFO_TITULO - TVN.cl" />
+    <meta name="twitter:title" content="INFO_TITULO - TVN.cl" />
+
+    <meta property="og:description" content="INFO_DESCRIPCION" />
+    <meta name="twitter:description" content="INFO_DESCRIPCION" />
+
+    <meta property="og:image" content="INFO_IMAGEN" />
+    <meta name="twitter:image:src" content="INFO_IMAGEN" />
+
+    <meta property="og:url" content="http://estaticos.tvn.cl/skins/copa_confederaciones/INFO_FULLHTML.html" />
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
-    <!-- SEO / FACEBOOK -->
-    <meta property="og:title" content="Rusia vs. Portugal: Momentos clave - TVN.cl" />
-    <meta property="og:description" content="Revisa en clips de video todas las incidencias del partido Rusia vs. Portugal." />
-    <meta property="og:image" content="http://estaticos.tvn.cl/skins/tvndeportes/201703211700/gfx/copaconfederaciones2017/fotolink_ceremonia_CC2.png" />
-    <meta property="og:url" content="http://www.tvn.cl/" />
     <meta property="og:locale" content="es_ES" />
     <meta property="og:type" content="article" />
     <meta property="og:site_name" content="TVN.cl" />
-
-    <!-- FACEBOOK -->
     <meta property="fb:pages" content="100924389951480" />
     <meta property="fb:app_id" content="64795506114" />
-
-    <!-- TWITTER -->
-    <meta name="twitter:title" content="Momentos clave: Rusia vs. Portugal" />
-    <meta name="twitter:description" content="Revisa en clips de video todas las incidencias del partido." />
-    <meta name="twitter:image:src" content="http://estaticos.tvn.cl/skins/tvndeportes/201703211700/gfx/copaconfederaciones2017/fotolink_ceremonia_CC2.png" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@tvn" />
     <meta name="twitter:creator" content="@tvn" />
@@ -33,13 +30,13 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
 
-    <script src="js/app.js"></script>
+    <script src="js/app.js?vINFO_CSSVERSION"></script>
     <script src="//strm.tvn.cl/js/player-1.3.min.js"></script>
 
     <!-- estilos -->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/font-awesome.css" />
-    <link rel="stylesheet" href="css/giff.css?v2" />
+    <link rel="stylesheet" href="css/giff.css?vINFO_CSSVERSION" />
 
     <script type="text/javascript">
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -54,22 +51,22 @@
 
 <body ng-controller="VideosCtrl as ctrl">
 
-<input type="hidden" name="nombre_json" id="nombre_json" value="data_5947d7b041a1a88ab7feb9c5_all.json" />
-<input type="hidden" name="partido_equipos" id="partido_equipos" value="Rusia vs. Portugal: Momentos clave" />
-<input type="hidden" name="partido_fecha" id="partido_fecha" value="21 de junio | Estadio Spartak, Moscú" />
+<input type="hidden" name="nombre_json" id="nombre_json" value="data_INFO_MEDIAID_INFO_TAG.json" />
+<input type="hidden" name="partido_equipos" id="partido_equipos" value="INFO_TITULO" />
+<input type="hidden" name="partido_fecha" id="partido_fecha" value="INFO_LUGAR" />
 
-<ng-include src="'partials/_contenido_completo.html'" />
+<ng-include src="'partials/_contenido_completo.html?vINFO_CSSVERSION'" />
 
 <script type="text/javascript">
-//<![CDATA[
-var _comscore = _comscore || [];
-_comscore.push({ c1: "2", c2: "6906476" });
-(function () {
-    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
-    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
-    el.parentNode.insertBefore(s, el);
-})();
-//]]>
+    //<![CDATA[
+    var _comscore = _comscore || [];
+    _comscore.push({ c1: "2", c2: "6906476" });
+    (function () {
+        var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+        s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+        el.parentNode.insertBefore(s, el);
+    })();
+    //]]>
 </script>
 <noscript />
 <img src="http://b.scorecardresearch.com/p?c1=2&c2=6906476&cv=2.0&cj=1" />
